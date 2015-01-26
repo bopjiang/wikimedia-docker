@@ -1,8 +1,14 @@
 # wikimedia-docker
-deploy wikimedia using docker.
+deploy wikimedia using docker and fig.
+
 component including:
 - wikimedia
 - mysql
+
+
+## deps
+* [docker](https://www.docker.com/)
+* [fig](http://www.fig.sh/)
 
 ## deploy
 

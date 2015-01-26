@@ -1,5 +1,5 @@
 # wikimedia-docker
-deploy wikimedia using docker and fig.
+deploy wiki/wikimedia using docker and fig.
 
 component including:
 - wikimedia

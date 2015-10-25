@@ -1,8 +1,8 @@
 # wikimedia-docker
-deploy wiki/wikimedia using docker and fig.
+deploy wiki/mediawiki using docker and fig.
 
 component including:
-- wikimedia
+- mediawiki
 - mysql
 
 

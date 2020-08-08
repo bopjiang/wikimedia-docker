@@ -1,14 +1,14 @@
-wiki2:
-    image: 'nickstenning/mediawiki'
+wiki:
+    image: "mediawiki:stable"
     ports:
         - "8880:80"
     links:
         - db:database
     volumes:
-        - /data/wiki2:/data
+        - /data/wiki:/data
 
 db:
-    image: "mysql:5.7.5"
+    image: "mysql:5.7.31"
     expose:
         - "3306"
     environment:

@@ -6,7 +6,9 @@ wiki:
         - db:database
     volumes:
         - ./data/images:/var/www/html/images
-        - ./data/LocalSettings.php:/var/www/html/LocalSettings.php
+        #- ./data/LocalSettings.php:/var/www/html/LocalSettings.php
+        - ./data/database:/var/www/data
+        - ./data/backup:/var/www/backup
 db:
     image: "mysql:5.7.31"
     expose:

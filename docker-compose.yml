@@ -5,8 +5,8 @@ wiki:
     links:
         - db:database
     volumes:
-        - /data/wiki:/data
-
+        - ./data/images:/var/www/html/images
+        - ./data/LocalSettings.php:/var/www/html/LocalSettings.php
 db:
     image: "mysql:5.7.31"
     expose:

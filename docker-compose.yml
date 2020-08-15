@@ -4,9 +4,7 @@ services:
     image: "mediawiki:stable"
     restart: "always"
     ports:
-        - "8880:80"
-    links:
-        - db:database
+        - "80:80"
     volumes:
         - ./data/images:/var/www/html/images
         - ./data/LocalSettings.php:/var/www/html/LocalSettings.php
